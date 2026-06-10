@@ -35,9 +35,11 @@ $$Version = X.Y.Z$$
 所有成員在更新程式碼（或使用 Git 提交 Commit）時，必須遵守 **約定式提交 (Conventional Commits)** 格式，並在結尾備註更新者。
 
 ### 格式模板
-```text
-<類型>(影響範圍): 簡短說明 [更新者姓名]
+
+＊　＊＊<類型>(影響範圍): 簡短說明 [更新者姓名]
+
 ### 常用類型 (Type)
+
 ＊　＊＊feat: 新增功能 (Feature)
 
 ＊　＊＊fix: 修補 Bug (Bug Fix)
