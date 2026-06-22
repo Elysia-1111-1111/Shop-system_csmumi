@@ -6,5 +6,10 @@ namespace Shop_System_csmumi_v._0._1._0
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
