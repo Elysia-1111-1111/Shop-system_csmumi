@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\Shop-system_csmumi\\Shop-System_csmumi_v.0.1.0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{937F7F47-A6C7-7CA0-CC6B-EAB933C2C8CA}|Shop-System_csmumi_v.0.1.0.csproj|d:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\shop-system_csmumi\\shop-system_csmumi_v.0.1.0\\log_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937F7F47-A6C7-7CA0-CC6B-EAB933C2C8CA}|Shop-System_csmumi_v.0.1.0.csproj|solutionrelative:log_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{937F7F47-A6C7-7CA0-CC6B-EAB933C2C8CA}|Shop-System_csmumi_v.0.1.0.csproj|d:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\shop-system_csmumi\\shop-system_csmumi_v.0.1.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{937F7F47-A6C7-7CA0-CC6B-EAB933C2C8CA}|Shop-System_csmumi_v.0.1.0.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,24 +21,33 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 587,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 278,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "log_in.cs",
+              "DocumentMoniker": "D:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\Shop-system_csmumi\\Shop-System_csmumi_v.0.1.0\\log_in.cs",
+              "RelativeDocumentMoniker": "log_in.cs",
+              "ToolTip": "D:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\Shop-system_csmumi\\Shop-System_csmumi_v.0.1.0\\log_in.cs",
+              "RelativeToolTip": "log_in.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAYwJYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T13:11:00.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\Shop-system_csmumi\\Shop-System_csmumi_v.0.1.0\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -47,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\Shop-system_csmumi\\Shop-System_csmumi_v.0.1.0\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -60,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u8A2D\u8A08 - \u4E2D\u6587\uFF08\u7E41\u9AD4\uFF09]",
               "DocumentMoniker": "D:\\\u6587\u4EF6\u653E\u7F6E\u5340\\\u671F\u672B\u5C08\u984C\\Shop-system_csmumi\\Shop-System_csmumi_v.0.1.0\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -73,36 +86,34 @@
           ]
         },
         {
-          "DockedWidth": 69,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 100,
+          "DockedHeight": 122,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         },
         {
-          "DockedWidth": 62,
+          "DockedHeight": 1115,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }

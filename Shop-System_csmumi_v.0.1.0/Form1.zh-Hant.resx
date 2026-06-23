@@ -234,14 +234,8 @@
   <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="button_12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -249,14 +243,8 @@
   <data name="button_12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button_12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 3</value>
-  </data>
   <data name="button_12.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button_12.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="button_12.Text" xml:space="preserve">
     <value>/</value>
@@ -264,14 +252,8 @@
   <data name="button_13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 3</value>
-  </data>
   <data name="button_13.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 91</value>
-  </data>
-  <data name="button_13.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="button_13.Text" xml:space="preserve">
     <value>*</value>
@@ -279,14 +261,8 @@
   <data name="button_7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 100</value>
-  </data>
   <data name="button_7.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button_7.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="button_7.Text" xml:space="preserve">
     <value>7</value>
@@ -294,14 +270,8 @@
   <data name="button_8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 100</value>
-  </data>
   <data name="button_8.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button_8.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="button_8.Text" xml:space="preserve">
     <value>8</value>
@@ -309,14 +279,8 @@
   <data name="button_9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 100</value>
-  </data>
   <data name="button_9.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 91</value>
-  </data>
-  <data name="button_9.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
   </data>
   <data name="button_9.Text" xml:space="preserve">
     <value>9</value>
@@ -327,14 +291,8 @@
   <data name="button_4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button_4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 197</value>
-  </data>
   <data name="button_4.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button_4.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
   </data>
   <data name="button_4.Text" xml:space="preserve">
     <value>4</value>
@@ -342,14 +300,8 @@
   <data name="button_5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 197</value>
-  </data>
   <data name="button_5.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button_5.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
   </data>
   <data name="button_5.Text" xml:space="preserve">
     <value>5</value>
@@ -357,14 +309,8 @@
   <data name="button_6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 197</value>
-  </data>
   <data name="button_6.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 91</value>
-  </data>
-  <data name="button_6.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
   </data>
   <data name="button_6.Text" xml:space="preserve">
     <value>6</value>
@@ -372,14 +318,8 @@
   <data name="button_1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 294</value>
-  </data>
   <data name="button_1.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button_1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
   </data>
   <data name="button_1.Text" xml:space="preserve">
     <value>1</value>
@@ -390,14 +330,8 @@
   <data name="button_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 294</value>
-  </data>
   <data name="button_2.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 91</value>
-  </data>
-  <data name="button_2.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
   </data>
   <data name="button_2.Text" xml:space="preserve">
     <value>2</value>
@@ -405,14 +339,8 @@
   <data name="button_3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 294</value>
-  </data>
   <data name="button_3.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 91</value>
-  </data>
-  <data name="button_3.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
   </data>
   <data name="button_3.Text" xml:space="preserve">
     <value>3</value>
@@ -435,14 +363,8 @@
   <data name="button_0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button_0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
   <data name="button_0.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 87</value>
-  </data>
-  <data name="button_0.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="button_0.Text" xml:space="preserve">
     <value>0</value>
@@ -453,14 +375,8 @@
   <data name="button_11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button_11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 3</value>
-  </data>
   <data name="button_11.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 87</value>
-  </data>
-  <data name="button_11.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="button_11.Text" xml:space="preserve">
     <value>.</value>
@@ -468,17 +384,11 @@
   <data name="tableLayoutPanel24.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 397</value>
-  </data>
   <data name="tableLayoutPanel24.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel24.Size" type="System.Drawing.Size, System.Drawing">
     <value>277, 93</value>
-  </data>
-  <data name="tableLayoutPanel24.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="tableLayoutPanel16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -498,14 +408,8 @@
   <data name="button_14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button_14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
   <data name="button_14.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 91</value>
-  </data>
-  <data name="button_14.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="button_14.Text" xml:space="preserve">
     <value>-</value>
@@ -513,14 +417,8 @@
   <data name="button15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 100</value>
-  </data>
   <data name="button15.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 188</value>
-  </data>
-  <data name="button15.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="button15.Text" xml:space="preserve">
     <value>+</value>
@@ -528,14 +426,8 @@
   <data name="button16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 294</value>
-  </data>
   <data name="button16.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 190</value>
-  </data>
-  <data name="button16.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="button16.Text" xml:space="preserve">
     <value>Enter</value>
@@ -555,14 +447,8 @@
   <data name="button17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
   <data name="button17.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 188</value>
-  </data>
-  <data name="button17.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="button17.Text" xml:space="preserve">
     <value>Del</value>
@@ -570,14 +456,8 @@
   <data name="button18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 197</value>
-  </data>
   <data name="button18.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 188</value>
-  </data>
-  <data name="button18.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="button18.Text" xml:space="preserve">
     <value>--</value>
@@ -585,14 +465,8 @@
   <data name="button19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 391</value>
-  </data>
   <data name="button19.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 93</value>
-  </data>
-  <data name="button19.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="button19.Text" xml:space="preserve">
     <value>_</value>
@@ -630,14 +504,8 @@
   <data name="button20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
   <data name="button20.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 68</value>
-  </data>
-  <data name="button20.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="button20.Text" xml:space="preserve">
     <value>&lt;-</value>
@@ -645,14 +513,8 @@
   <data name="button21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 3</value>
-  </data>
   <data name="button21.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 68</value>
-  </data>
-  <data name="button21.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="button21.Text" xml:space="preserve">
     <value>-&gt;</value>
@@ -660,14 +522,8 @@
   <data name="button22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 3</value>
-  </data>
   <data name="button22.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 68</value>
-  </data>
-  <data name="button22.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="tableLayoutPanel21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -705,26 +561,20 @@
   <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
     <value>1280, 757</value>
   </data>
-  <data name="textBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="tableLayoutPanel25.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei UI, 48pt</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="tableLayoutPanel25.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1280, 89</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="tableLayoutPanel25.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>0</value>
+  <data name="tableLayoutPanel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1280, 74</value>
   </data>
-  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
+  <data name="tableLayoutPanel25.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="tableLayoutPanel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -756,11 +606,38 @@
   <data name="tableLayoutPanel23.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="tableLayoutPanel23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="UserPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel23.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="UserPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
+  </data>
+  <data name="UserPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 48</value>
+  </data>
+  <data name="UserPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 54</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tableLayoutPanel23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="tableLayoutPanel23.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
@@ -768,23 +645,14 @@
   <data name="tableLayoutPanel23.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 54</value>
   </data>
-  <data name="tableLayoutPanel23.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="tableLayoutPanel22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
   </data>
   <data name="tableLayoutPanel22.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tableLayoutPanel22.Size" type="System.Drawing.Size, System.Drawing">
     <value>294, 1035</value>
-  </data>
-  <data name="tableLayoutPanel22.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

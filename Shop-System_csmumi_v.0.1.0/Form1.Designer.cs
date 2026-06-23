@@ -46,15 +46,6 @@
             tableLayoutPanel15 = new TableLayoutPanel();
             tableLayoutPanel16 = new TableLayoutPanel();
             tableLayoutPanel17 = new TableLayoutPanel();
-            tableLayoutPanel18 = new TableLayoutPanel();
-            tableLayoutPanel19 = new TableLayoutPanel();
-            tableLayoutPanel20 = new TableLayoutPanel();
-            tableLayoutPanel21 = new TableLayoutPanel();
-            tableLayoutPanel22 = new TableLayoutPanel();
-            tableLayoutPanel23 = new TableLayoutPanel();
-            tableLayoutPanel24 = new TableLayoutPanel();
-            button_0 = new Button();
-            button_11 = new Button();
             button3 = new Button();
             button_12 = new Button();
             button_13 = new Button();
@@ -67,16 +58,27 @@
             button_1 = new Button();
             button_2 = new Button();
             button_3 = new Button();
+            tableLayoutPanel24 = new TableLayoutPanel();
+            button_0 = new Button();
+            button_11 = new Button();
+            tableLayoutPanel18 = new TableLayoutPanel();
+            tableLayoutPanel19 = new TableLayoutPanel();
             button_14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            tableLayoutPanel20 = new TableLayoutPanel();
             button17 = new Button();
             button18 = new Button();
             button19 = new Button();
+            tableLayoutPanel21 = new TableLayoutPanel();
             button20 = new Button();
             button21 = new Button();
             button22 = new Button();
-            textBox1 = new TextBox();
+            tableLayoutPanel22 = new TableLayoutPanel();
+            tableLayoutPanel23 = new TableLayoutPanel();
+            UserPanel = new Button();
+            label1 = new Label();
+            tableLayoutPanel25 = new TableLayoutPanel();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel9.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
@@ -88,12 +90,13 @@
             tableLayoutPanel15.SuspendLayout();
             tableLayoutPanel16.SuspendLayout();
             tableLayoutPanel17.SuspendLayout();
+            tableLayoutPanel24.SuspendLayout();
             tableLayoutPanel18.SuspendLayout();
             tableLayoutPanel19.SuspendLayout();
             tableLayoutPanel20.SuspendLayout();
             tableLayoutPanel21.SuspendLayout();
             tableLayoutPanel22.SuspendLayout();
-            tableLayoutPanel24.SuspendLayout();
+            tableLayoutPanel23.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -150,7 +153,7 @@
             // 
             resources.ApplyResources(tableLayoutPanel8, "tableLayoutPanel8");
             tableLayoutPanel8.Controls.Add(tableLayoutPanel10, 0, 1);
-            tableLayoutPanel8.Controls.Add(textBox1, 0, 0);
+            tableLayoutPanel8.Controls.Add(tableLayoutPanel25, 0, 0);
             tableLayoutPanel8.Name = "tableLayoutPanel8";
             // 
             // tableLayoutPanel10
@@ -214,67 +217,6 @@
             tableLayoutPanel17.Controls.Add(button_2, 1, 3);
             tableLayoutPanel17.Controls.Add(button_3, 2, 3);
             tableLayoutPanel17.Name = "tableLayoutPanel17";
-            // 
-            // tableLayoutPanel18
-            // 
-            resources.ApplyResources(tableLayoutPanel18, "tableLayoutPanel18");
-            tableLayoutPanel18.Controls.Add(tableLayoutPanel19, 0, 0);
-            tableLayoutPanel18.Controls.Add(tableLayoutPanel20, 1, 0);
-            tableLayoutPanel18.Name = "tableLayoutPanel18";
-            // 
-            // tableLayoutPanel19
-            // 
-            resources.ApplyResources(tableLayoutPanel19, "tableLayoutPanel19");
-            tableLayoutPanel19.Controls.Add(button_14, 0, 0);
-            tableLayoutPanel19.Controls.Add(button15, 0, 1);
-            tableLayoutPanel19.Controls.Add(button16, 0, 2);
-            tableLayoutPanel19.Name = "tableLayoutPanel19";
-            // 
-            // tableLayoutPanel20
-            // 
-            resources.ApplyResources(tableLayoutPanel20, "tableLayoutPanel20");
-            tableLayoutPanel20.Controls.Add(button17, 0, 0);
-            tableLayoutPanel20.Controls.Add(button18, 0, 1);
-            tableLayoutPanel20.Controls.Add(button19, 0, 2);
-            tableLayoutPanel20.Name = "tableLayoutPanel20";
-            // 
-            // tableLayoutPanel21
-            // 
-            resources.ApplyResources(tableLayoutPanel21, "tableLayoutPanel21");
-            tableLayoutPanel21.Controls.Add(button20, 0, 0);
-            tableLayoutPanel21.Controls.Add(button21, 1, 0);
-            tableLayoutPanel21.Controls.Add(button22, 2, 0);
-            tableLayoutPanel21.Name = "tableLayoutPanel21";
-            // 
-            // tableLayoutPanel22
-            // 
-            resources.ApplyResources(tableLayoutPanel22, "tableLayoutPanel22");
-            tableLayoutPanel22.Controls.Add(tableLayoutPanel23, 0, 0);
-            tableLayoutPanel22.Name = "tableLayoutPanel22";
-            // 
-            // tableLayoutPanel23
-            // 
-            resources.ApplyResources(tableLayoutPanel23, "tableLayoutPanel23");
-            tableLayoutPanel23.Name = "tableLayoutPanel23";
-            // 
-            // tableLayoutPanel24
-            // 
-            resources.ApplyResources(tableLayoutPanel24, "tableLayoutPanel24");
-            tableLayoutPanel24.Controls.Add(button_0, 0, 0);
-            tableLayoutPanel24.Controls.Add(button_11, 1, 0);
-            tableLayoutPanel24.Name = "tableLayoutPanel24";
-            // 
-            // button_0
-            // 
-            resources.ApplyResources(button_0, "button_0");
-            button_0.Name = "button_0";
-            button_0.UseVisualStyleBackColor = true;
-            // 
-            // button_11
-            // 
-            resources.ApplyResources(button_11, "button_11");
-            button_11.Name = "button_11";
-            button_11.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -348,6 +290,40 @@
             button_3.Name = "button_3";
             button_3.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel24
+            // 
+            resources.ApplyResources(tableLayoutPanel24, "tableLayoutPanel24");
+            tableLayoutPanel24.Controls.Add(button_0, 0, 0);
+            tableLayoutPanel24.Controls.Add(button_11, 1, 0);
+            tableLayoutPanel24.Name = "tableLayoutPanel24";
+            // 
+            // button_0
+            // 
+            resources.ApplyResources(button_0, "button_0");
+            button_0.Name = "button_0";
+            button_0.UseVisualStyleBackColor = true;
+            // 
+            // button_11
+            // 
+            resources.ApplyResources(button_11, "button_11");
+            button_11.Name = "button_11";
+            button_11.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel18
+            // 
+            resources.ApplyResources(tableLayoutPanel18, "tableLayoutPanel18");
+            tableLayoutPanel18.Controls.Add(tableLayoutPanel19, 0, 0);
+            tableLayoutPanel18.Controls.Add(tableLayoutPanel20, 1, 0);
+            tableLayoutPanel18.Name = "tableLayoutPanel18";
+            // 
+            // tableLayoutPanel19
+            // 
+            resources.ApplyResources(tableLayoutPanel19, "tableLayoutPanel19");
+            tableLayoutPanel19.Controls.Add(button_14, 0, 0);
+            tableLayoutPanel19.Controls.Add(button15, 0, 1);
+            tableLayoutPanel19.Controls.Add(button16, 0, 2);
+            tableLayoutPanel19.Name = "tableLayoutPanel19";
+            // 
             // button_14
             // 
             resources.ApplyResources(button_14, "button_14");
@@ -365,6 +341,14 @@
             resources.ApplyResources(button16, "button16");
             button16.Name = "button16";
             button16.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel20
+            // 
+            resources.ApplyResources(tableLayoutPanel20, "tableLayoutPanel20");
+            tableLayoutPanel20.Controls.Add(button17, 0, 0);
+            tableLayoutPanel20.Controls.Add(button18, 0, 1);
+            tableLayoutPanel20.Controls.Add(button19, 0, 2);
+            tableLayoutPanel20.Name = "tableLayoutPanel20";
             // 
             // button17
             // 
@@ -384,6 +368,14 @@
             button19.Name = "button19";
             button19.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel21
+            // 
+            resources.ApplyResources(tableLayoutPanel21, "tableLayoutPanel21");
+            tableLayoutPanel21.Controls.Add(button20, 0, 0);
+            tableLayoutPanel21.Controls.Add(button21, 1, 0);
+            tableLayoutPanel21.Controls.Add(button22, 2, 0);
+            tableLayoutPanel21.Name = "tableLayoutPanel21";
+            // 
             // button20
             // 
             resources.ApplyResources(button20, "button20");
@@ -402,10 +394,35 @@
             button22.Name = "button22";
             button22.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tableLayoutPanel22
             // 
-            resources.ApplyResources(textBox1, "textBox1");
-            textBox1.Name = "textBox1";
+            resources.ApplyResources(tableLayoutPanel22, "tableLayoutPanel22");
+            tableLayoutPanel22.Controls.Add(tableLayoutPanel23, 0, 0);
+            tableLayoutPanel22.Name = "tableLayoutPanel22";
+            // 
+            // tableLayoutPanel23
+            // 
+            resources.ApplyResources(tableLayoutPanel23, "tableLayoutPanel23");
+            tableLayoutPanel23.Controls.Add(UserPanel, 0, 0);
+            tableLayoutPanel23.Controls.Add(label1, 1, 0);
+            tableLayoutPanel23.Name = "tableLayoutPanel23";
+            // 
+            // UserPanel
+            // 
+            resources.ApplyResources(UserPanel, "UserPanel");
+            UserPanel.Name = "UserPanel";
+            UserPanel.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(label1, "label1");
+            label1.BackColor = SystemColors.Info;
+            label1.Name = "label1";
+            // 
+            // tableLayoutPanel25
+            // 
+            resources.ApplyResources(tableLayoutPanel25, "tableLayoutPanel25");
+            tableLayoutPanel25.Name = "tableLayoutPanel25";
             // 
             // 超商結帳系統
             // 
@@ -420,19 +437,20 @@
             tableLayoutPanel5.ResumeLayout(false);
             tableLayoutPanel6.ResumeLayout(false);
             tableLayoutPanel8.ResumeLayout(false);
-            tableLayoutPanel8.PerformLayout();
             tableLayoutPanel10.ResumeLayout(false);
             tableLayoutPanel12.ResumeLayout(false);
             tableLayoutPanel14.ResumeLayout(false);
             tableLayoutPanel15.ResumeLayout(false);
             tableLayoutPanel16.ResumeLayout(false);
             tableLayoutPanel17.ResumeLayout(false);
+            tableLayoutPanel24.ResumeLayout(false);
             tableLayoutPanel18.ResumeLayout(false);
             tableLayoutPanel19.ResumeLayout(false);
             tableLayoutPanel20.ResumeLayout(false);
             tableLayoutPanel21.ResumeLayout(false);
             tableLayoutPanel22.ResumeLayout(false);
-            tableLayoutPanel24.ResumeLayout(false);
+            tableLayoutPanel23.ResumeLayout(false);
+            tableLayoutPanel23.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -484,6 +502,8 @@
         private Button button20;
         private Button button21;
         private Button button22;
-        private TextBox textBox1;
+        private Button UserPanel;
+        private Label label1;
+        private TableLayoutPanel tableLayoutPanel25;
     }
 }
