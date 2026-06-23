@@ -11,7 +11,7 @@ namespace Shop_System_csmumi_v._0._1._0
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new 超商結帳系統());
         }
     }
 }
