@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\whyul\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\whyul\\.nuget\\packages",
+      "C:\\Users\\生生不息的激盪\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\生生不息的激盪\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
