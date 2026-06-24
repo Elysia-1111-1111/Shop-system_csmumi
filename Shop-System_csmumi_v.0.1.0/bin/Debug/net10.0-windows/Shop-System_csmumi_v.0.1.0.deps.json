@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Shop-System_csmumi_v.0.1.0/1.0.0": {
+        "runtime": {
+          "Shop-System_csmumi_v.0.1.0.dll": {}
+        },
+        "resources": {
+          "zh-Hant/Shop-System_csmumi_v.0.1.0.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shop-System_csmumi_v.0.1.0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

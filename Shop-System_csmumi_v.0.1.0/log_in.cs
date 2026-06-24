@@ -43,26 +43,42 @@ namespace Shop_System_csmumi_v._0._1._0
     //以下儲存工作人員檔案        
             public static void SaveDatabaseToFile()
             {
-            try
+            try { 
+            StringBuilder stringBuilder_02 = new StringBuilder();
+
+            stringBuilder_02.AppendLine("{");//把括號裡的文字貼上去，並且在最後面換行
+
+            List<string> rows = new List<string>();
+
+            foreach (var kvp in UserDatabase)
+
             {
-                StringBuilder stringBuilder_02 = new StringBuilder();
-                stringBuilder_02.AppendLine("{");//把括號裡的文字貼上去，並且在最後面換行
-                List<string> rows = new List<string>();
-                foreach (var kvp in UserDatabase)
-                {
-                    //遍歷該檔案並且製成一組一列的檔案放置於動態字串陣列中  "admin": "8c6976..."
-                    rows.Add($"  \"{kvp.Key}\": \"{kvp.Value}\"");
-                }
-                //把讀出來的陣列 塞進魔術大空間 並且區隔逗號(符合json語法)  
-                stringBuilder_02.AppendLine(string.Join(",\n", rows));
-                //包上結尾的括號
-                stringBuilder_02.AppendLine("}");
-                //轉換為byte陣列 再轉成 base64 加密字串
-                byte[] EncryptionString = Encoding.UTF8.GetBytes(stringBuilder_02.ToString());
-                string encryptedContent = Convert.ToBase64String(EncryptionString);
-                //把這串密文寫入硬碟檔案中
-                System.IO.File.WriteAllText(FilePath, encryptedContent, Encoding.UTF8);
+
+                //遍歷該檔案並且製成一組一列的檔案放置於動態字串陣列中 "admin": "8c6976..."
+
+                rows.Add($" \"{kvp.Key}\": \"{kvp.Value}\"");
+
             }
+
+            //把讀出來的陣列 塞進魔術大空間 並且區隔逗號(符合json語法)
+
+            stringBuilder_02.AppendLine(string.Join(",\n", rows));
+
+            //包上結尾的括號
+
+            stringBuilder_02.AppendLine("}");
+
+            //轉換為byte陣列 再轉成 base64 加密字串
+
+            byte[] EncryptionString = Encoding.UTF8.GetBytes(stringBuilder_02.ToString());
+
+            string encryptedContent = Convert.ToBase64String(EncryptionString);
+
+            //把這串密文寫入硬碟檔案中
+
+            System.IO.File.WriteAllText(FilePath, encryptedContent, Encoding.UTF8);
+
+        }
             catch(Exception ex)
             {
                 // 萬一寫入硬碟失敗，彈窗警告
@@ -131,7 +147,7 @@ namespace Shop_System_csmumi_v._0._1._0
             string inputHash = LoginPasswords(password);
             return UserDatabase[username] == inputHash;
         }
-    }
+    
 //修改密碼接口
     public static bool ChangePassword(string username, string oldPassword, string newPassword)
         {

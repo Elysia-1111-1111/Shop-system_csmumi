@@ -1,0 +1,106 @@
+﻿namespace Shop_System_csmumi_v._0._1._0
+{
+    public partial class 超商結帳系統 : Form
+    {
+        public 超商結帳系統()
+        {
+            InitializeComponent();
+        }
+
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+        // 🏪 全域變數：超商的「商品總庫存清單」（假資料，等畫面寫好再抽換成 JSON 檔）
+        private List<Product> ProductStockList = new List<Product>()
+        {
+        new Product { ID = "001", Name = "茶裏王日式綠茶", Price = 25 },
+        new Product { ID = "002", Name = "科學麵脆麵", Price = 10 },
+        new Product { ID = "003", Name = "純喫茶紅茶", Price = 20 }
+        };
+
+        // 🛒 全域變數：目前正在結帳的「購物車明細清單」
+        private List<CartItem> MyShoppingCart = new List<CartItem>();
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
+            private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            // 1. 檢查是不是按下鍵盤上的 Enter 鍵
+            if (e.KeyCode == Keys.Enter)
+            {
+                // 抓取你在搜尋框打的字（例如打 "001"），Trim() 可以清除不小心按到的前後空白空间
+                string inputID = textBox1.Text.Trim();
+
+                // 防呆：如果店員什麼都沒打就手殘按 Enter，直接 return 結束，什麼都不做
+                if (string.IsNullOrEmpty(inputID)) return;
+
+                // 2. 萬能搜尋：去我們的「商品總庫存清單」裡，撈看看有沒有人的 ID 跟打進去的字一模一樣？
+                // kvp => 代表逐一檢查清單裡的每一項商品
+                Product foundProduct = ProductStockList.Find(kvp => kvp.ID == inputID);
+
+                // 3. 判斷有沒有撈到商品
+                if (foundProduct != null)
+                {
+                    // 🎉 找到了！接下來檢查這個商品是不是已經出現在購物車裡了？
+                    CartItem existingItem = MyShoppingCart.Find(item => item.productInfo.ID == inputID);
+
+                    if (existingItem != null)
+                    {
+                        // 狀況 A：如果購物車裡早就有了，直接把購買數量 + 1 
+                        existingItem.Quantity++;
+                    }
+                    else
+                    {
+                        // 狀況 B：如果是全新的商品，新建立一列購物車明細
+                        CartItem newItem = new CartItem();
+                        newItem.productInfo = foundProduct; // 把撈到的商品塞進去
+                        newItem.Quantity = 1;               // 預設數量給 1
+
+                        MyShoppingCart.Add(newItem);        // 推進購物車 List 陣列
+                    }
+
+                    // 💡 4. 資料更新完畢後，呼叫你寫的 UpdateUI 方法來刷新大黑框！
+                    UpdateUI();
+
+                    // 貼心防呆：刷完商品後，自動清空搜尋框，方便店員一秒刷下一個商品
+                    textBox1.Clear();
+                }
+                else
+                {
+                    // 💀 查無此商品，無情彈窗警告
+                    System.Windows.Forms.MessageBox.Show("查無此商品條碼，請重新輸入！", "系統提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    textBox1.Clear();
+                }
+            }
+        }
+        
+
+        private void UpdateUI()
+        {
+            // 使用設計器中的 dataGridView1 作為購物車顯示
+            dataGridView1.Rows.Clear();
+            // 如需重新載入 MyShoppingCart 的內容，可在此加入填充邏輯
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // 表單載入初始化
+        }
+    }
+}

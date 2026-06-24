@@ -1,0 +1,51 @@
+﻿namespace Shop_System_csmumi_v._0._1._0
+{
+    public partial class 超商結帳系統 : Form
+    {
+        public 超商結帳系統()
+        {
+            InitializeComponent();
+        }
+
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+        // 🏪 全域變數：超商的「商品總庫存清單」（假資料，等畫面寫好再抽換成 JSON 檔）
+        private List<Product> ProductStockList = new List<Product>()
+        {
+        new Product { ID = "001", Name = "茶裏王日式綠茶", Price = 25 },
+        new Product { ID = "002", Name = "科學麵脆麵", Price = 10 },
+        new Product { ID = "003", Name = "純喫茶紅茶", Price = 20 }
+        };
+
+        // 🛒 全域變數：目前正在結帳的「購物車明細清單」
+        private List<CartItem> MyShoppingCart = new List<CartItem>();
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            private void UpdateUI()
+            {
+               dgvCart.Rows.Clear();
+                
+        
+            }
+        }
+    }
+}

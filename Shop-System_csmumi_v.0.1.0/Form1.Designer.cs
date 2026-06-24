@@ -20,6 +20,11 @@
             base.Dispose(disposing);
         }
 
+        private TextBox GetTextBox11()
+        {
+            return textBox1;
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -32,14 +37,38 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel9 = new TableLayoutPanel();
             tableLayoutPanel2 = new TableLayoutPanel();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
             tableLayoutPanel3 = new TableLayoutPanel();
+            label10 = new Label();
+            label9 = new Label();
             tableLayoutPanel4 = new TableLayoutPanel();
+            label16 = new Label();
+            label15 = new Label();
+            label14 = new Label();
+            label13 = new Label();
+            label12 = new Label();
             tableLayoutPanel5 = new TableLayoutPanel();
             tableLayoutPanel6 = new TableLayoutPanel();
+            pictureBox1 = new PictureBox();
             tableLayoutPanel7 = new TableLayoutPanel();
+            label3 = new Label();
+            label2 = new Label();
+            tableLayoutPanel27 = new TableLayoutPanel();
+            button2 = new Button();
+            button4 = new Button();
             tableLayoutPanel8 = new TableLayoutPanel();
             tableLayoutPanel10 = new TableLayoutPanel();
             tableLayoutPanel11 = new TableLayoutPanel();
+            tableLayoutPanel28 = new TableLayoutPanel();
+            label4 = new Label();
+            label5 = new Label();
+            dataGridView1 = new DataGridView();
+            colID = new DataGridViewTextBoxColumn();
+            colName = new DataGridViewTextBoxColumn();
+            colQuantity01 = new DataGridViewTextBoxColumn();
+            colAccount = new DataGridViewTextBoxColumn();
             tableLayoutPanel12 = new TableLayoutPanel();
             tableLayoutPanel13 = new TableLayoutPanel();
             tableLayoutPanel14 = new TableLayoutPanel();
@@ -74,17 +103,29 @@
             button20 = new Button();
             button21 = new Button();
             button22 = new Button();
+            tableLayoutPanel25 = new TableLayoutPanel();
+            button1 = new Button();
+            textBox1 = new TextBox();
             tableLayoutPanel22 = new TableLayoutPanel();
             tableLayoutPanel23 = new TableLayoutPanel();
             UserPanel = new Button();
             label1 = new Label();
-            tableLayoutPanel25 = new TableLayoutPanel();
+            pictureBox2 = new PictureBox();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel9.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            tableLayoutPanel4.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            tableLayoutPanel7.SuspendLayout();
+            tableLayoutPanel27.SuspendLayout();
             tableLayoutPanel8.SuspendLayout();
             tableLayoutPanel10.SuspendLayout();
+            tableLayoutPanel11.SuspendLayout();
+            tableLayoutPanel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             tableLayoutPanel12.SuspendLayout();
             tableLayoutPanel14.SuspendLayout();
             tableLayoutPanel15.SuspendLayout();
@@ -95,8 +136,10 @@
             tableLayoutPanel19.SuspendLayout();
             tableLayoutPanel20.SuspendLayout();
             tableLayoutPanel21.SuspendLayout();
+            tableLayoutPanel25.SuspendLayout();
             tableLayoutPanel22.SuspendLayout();
             tableLayoutPanel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -119,17 +162,99 @@
             // tableLayoutPanel2
             // 
             resources.ApplyResources(tableLayoutPanel2, "tableLayoutPanel2");
+            tableLayoutPanel2.Controls.Add(label8, 2, 0);
+            tableLayoutPanel2.Controls.Add(label7, 1, 0);
+            tableLayoutPanel2.Controls.Add(label6, 0, 0);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(label8, "label8");
+            label8.BackColor = Color.FromArgb(160, 165, 181);
+            label8.ForeColor = Color.FromArgb(16, 20, 29);
+            label8.Name = "label8";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(label7, "label7");
+            label7.BackColor = Color.FromArgb(160, 165, 181);
+            label7.ForeColor = Color.FromArgb(16, 20, 29);
+            label7.Name = "label7";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = Color.FromArgb(160, 165, 181);
+            label6.ForeColor = Color.FromArgb(16, 20, 29);
+            label6.Name = "label6";
             // 
             // tableLayoutPanel3
             // 
             resources.ApplyResources(tableLayoutPanel3, "tableLayoutPanel3");
+            tableLayoutPanel3.Controls.Add(label10, 1, 0);
+            tableLayoutPanel3.Controls.Add(label9, 0, 0);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(label10, "label10");
+            label10.BackColor = Color.FromArgb(160, 165, 181);
+            label10.ForeColor = Color.FromArgb(16, 20, 29);
+            label10.Name = "label10";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(label9, "label9");
+            label9.BackColor = Color.FromArgb(160, 165, 181);
+            label9.ForeColor = Color.FromArgb(16, 20, 29);
+            label9.Name = "label9";
             // 
             // tableLayoutPanel4
             // 
             resources.ApplyResources(tableLayoutPanel4, "tableLayoutPanel4");
+            tableLayoutPanel4.Controls.Add(label16, 4, 0);
+            tableLayoutPanel4.Controls.Add(label15, 3, 0);
+            tableLayoutPanel4.Controls.Add(label14, 2, 0);
+            tableLayoutPanel4.Controls.Add(label13, 1, 0);
+            tableLayoutPanel4.Controls.Add(label12, 0, 0);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
+            // 
+            // label16
+            // 
+            resources.ApplyResources(label16, "label16");
+            label16.BackColor = Color.FromArgb(160, 165, 181);
+            label16.ForeColor = Color.FromArgb(16, 20, 29);
+            label16.Name = "label16";
+            label16.Click += btnCustomDiscount_Click;
+            // 
+            // label15
+            // 
+            resources.ApplyResources(label15, "label15");
+            label15.BackColor = Color.FromArgb(160, 165, 181);
+            label15.ForeColor = Color.FromArgb(16, 20, 29);
+            label15.Name = "label15";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(label14, "label14");
+            label14.BackColor = Color.FromArgb(160, 165, 181);
+            label14.ForeColor = Color.FromArgb(16, 20, 29);
+            label14.Name = "label14";
+            // 
+            // label13
+            // 
+            resources.ApplyResources(label13, "label13");
+            label13.BackColor = Color.FromArgb(160, 165, 181);
+            label13.ForeColor = Color.FromArgb(16, 20, 29);
+            label13.Name = "label13";
+            label13.Click += btnCashPay_Click;
+            // 
+            // label12
+            // 
+            resources.ApplyResources(label12, "label12");
+            label12.BackColor = Color.FromArgb(160, 165, 181);
+            label12.ForeColor = Color.FromArgb(16, 20, 29);
+            label12.Name = "label12";
             // 
             // tableLayoutPanel5
             // 
@@ -141,13 +266,59 @@
             // tableLayoutPanel6
             // 
             resources.ApplyResources(tableLayoutPanel6, "tableLayoutPanel6");
+            tableLayoutPanel6.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel6.Controls.Add(tableLayoutPanel7, 0, 1);
+            tableLayoutPanel6.Controls.Add(tableLayoutPanel27, 0, 2);
             tableLayoutPanel6.Name = "tableLayoutPanel6";
+            tableLayoutPanel6.Paint += tableLayoutPanel6_Paint;
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(pictureBox1, "pictureBox1");
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.TabStop = false;
             // 
             // tableLayoutPanel7
             // 
             resources.ApplyResources(tableLayoutPanel7, "tableLayoutPanel7");
+            tableLayoutPanel7.Controls.Add(label3, 0, 1);
+            tableLayoutPanel7.Controls.Add(label2, 0, 0);
             tableLayoutPanel7.Name = "tableLayoutPanel7";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(label3, "label3");
+            label3.ForeColor = SystemColors.Control;
+            label3.Name = "label3";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(label2, "label2");
+            label2.ForeColor = SystemColors.Control;
+            label2.Name = "label2";
+            // 
+            // tableLayoutPanel27
+            // 
+            resources.ApplyResources(tableLayoutPanel27, "tableLayoutPanel27");
+            tableLayoutPanel27.Controls.Add(button2, 0, 0);
+            tableLayoutPanel27.Controls.Add(button4, 1, 0);
+            tableLayoutPanel27.Name = "tableLayoutPanel27";
+            // 
+            // button2
+            // 
+            resources.ApplyResources(button2, "button2");
+            button2.BackColor = Color.FromArgb(160, 165, 181);
+            button2.ForeColor = Color.FromArgb(16, 20, 29);
+            button2.Name = "button2";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            resources.ApplyResources(button4, "button4");
+            button4.BackColor = Color.FromArgb(160, 165, 181);
+            button4.ForeColor = Color.FromArgb(16, 20, 29);
+            button4.Name = "button4";
+            button4.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel8
             // 
@@ -166,7 +337,61 @@
             // tableLayoutPanel11
             // 
             resources.ApplyResources(tableLayoutPanel11, "tableLayoutPanel11");
+            tableLayoutPanel11.Controls.Add(tableLayoutPanel28, 0, 1);
+            tableLayoutPanel11.Controls.Add(dataGridView1, 0, 0);
             tableLayoutPanel11.Name = "tableLayoutPanel11";
+            // 
+            // tableLayoutPanel28
+            // 
+            resources.ApplyResources(tableLayoutPanel28, "tableLayoutPanel28");
+            tableLayoutPanel28.Controls.Add(label4, 0, 0);
+            tableLayoutPanel28.Controls.Add(label5, 1, 0);
+            tableLayoutPanel28.Name = "tableLayoutPanel28";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.AllowDrop = true;
+            label4.ForeColor = Color.FromArgb(0, 245, 255);
+            label4.Name = "label4";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(label5, "label5");
+            label5.ForeColor = Color.FromArgb(0, 245, 255);
+            label5.Name = "label5";
+            // 
+            // dataGridView1
+            // 
+            resources.ApplyResources(dataGridView1, "dataGridView1");
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { colID, colName, colQuantity01, colAccount });
+            dataGridView1.Name = "dataGridView1";
+            // 
+            // colID
+            // 
+            colID.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            resources.ApplyResources(colID, "colID");
+            colID.Name = "colID";
+            colID.ReadOnly = true;
+            // 
+            // colName
+            // 
+            colName.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            resources.ApplyResources(colName, "colName");
+            colName.Name = "colName";
+            colName.ReadOnly = true;
+            // 
+            // colQuantity01
+            // 
+            resources.ApplyResources(colQuantity01, "colQuantity01");
+            colQuantity01.Name = "colQuantity01";
+            // 
+            // colAccount
+            // 
+            resources.ApplyResources(colAccount, "colAccount");
+            colAccount.Name = "colAccount";
+            colAccount.ReadOnly = true;
             // 
             // tableLayoutPanel12
             // 
@@ -241,54 +466,63 @@
             resources.ApplyResources(button_7, "button_7");
             button_7.Name = "button_7";
             button_7.UseVisualStyleBackColor = true;
+            button_7.Click += btnNumber_Click;
             // 
             // button_8
             // 
             resources.ApplyResources(button_8, "button_8");
             button_8.Name = "button_8";
             button_8.UseVisualStyleBackColor = true;
+            button_8.Click += btnNumber_Click;
             // 
             // button_9
             // 
             resources.ApplyResources(button_9, "button_9");
             button_9.Name = "button_9";
             button_9.UseVisualStyleBackColor = true;
+            button_9.Click += btnNumber_Click;
             // 
             // button_4
             // 
             resources.ApplyResources(button_4, "button_4");
             button_4.Name = "button_4";
             button_4.UseVisualStyleBackColor = true;
+            button_4.Click += btnNumber_Click;
             // 
             // button_5
             // 
             resources.ApplyResources(button_5, "button_5");
             button_5.Name = "button_5";
             button_5.UseVisualStyleBackColor = true;
+            button_5.Click += btnNumber_Click;
             // 
             // button_6
             // 
             resources.ApplyResources(button_6, "button_6");
             button_6.Name = "button_6";
             button_6.UseVisualStyleBackColor = true;
+            button_6.Click += btnNumber_Click;
             // 
             // button_1
             // 
             resources.ApplyResources(button_1, "button_1");
             button_1.Name = "button_1";
             button_1.UseVisualStyleBackColor = true;
+            button_1.Click += btnNumber_Click;
             // 
             // button_2
             // 
             resources.ApplyResources(button_2, "button_2");
             button_2.Name = "button_2";
             button_2.UseVisualStyleBackColor = true;
+            button_2.Click += btnNumber_Click;
             // 
             // button_3
             // 
             resources.ApplyResources(button_3, "button_3");
             button_3.Name = "button_3";
             button_3.UseVisualStyleBackColor = true;
+            button_3.Click += btnNumber_Click;
             // 
             // tableLayoutPanel24
             // 
@@ -302,12 +536,14 @@
             resources.ApplyResources(button_0, "button_0");
             button_0.Name = "button_0";
             button_0.UseVisualStyleBackColor = true;
+            button_0.Click += btnNumber_Click;
             // 
             // button_11
             // 
             resources.ApplyResources(button_11, "button_11");
             button_11.Name = "button_11";
             button_11.UseVisualStyleBackColor = true;
+            button_11.Click += btnCustomDiscount_Click;
             // 
             // tableLayoutPanel18
             // 
@@ -341,6 +577,7 @@
             resources.ApplyResources(button16, "button16");
             button16.Name = "button16";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += btnChangeQty_Click;
             // 
             // tableLayoutPanel20
             // 
@@ -355,6 +592,7 @@
             resources.ApplyResources(button17, "button17");
             button17.Name = "button17";
             button17.UseVisualStyleBackColor = true;
+            button17.Click += btnBackspace_Click;
             // 
             // button18
             // 
@@ -393,11 +631,33 @@
             resources.ApplyResources(button22, "button22");
             button22.Name = "button22";
             button22.UseVisualStyleBackColor = true;
+            button22.Click += btnEnter_Click;
+            // 
+            // tableLayoutPanel25
+            // 
+            resources.ApplyResources(tableLayoutPanel25, "tableLayoutPanel25");
+            tableLayoutPanel25.Controls.Add(button1, 1, 0);
+            tableLayoutPanel25.Controls.Add(textBox1, 0, 0);
+            tableLayoutPanel25.Name = "tableLayoutPanel25";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(button1, "button1");
+            button1.Name = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(textBox1, "textBox1");
+            textBox1.Name = "textBox1";
+            textBox1.TextChanged += textBox1_TextChanged;
+            textBox1.KeyDown += textBox1_KeyDown;
             // 
             // tableLayoutPanel22
             // 
             resources.ApplyResources(tableLayoutPanel22, "tableLayoutPanel22");
             tableLayoutPanel22.Controls.Add(tableLayoutPanel23, 0, 0);
+            tableLayoutPanel22.Controls.Add(pictureBox2, 0, 1);
             tableLayoutPanel22.Name = "tableLayoutPanel22";
             // 
             // tableLayoutPanel23
@@ -419,25 +679,37 @@
             label1.BackColor = SystemColors.Info;
             label1.Name = "label1";
             // 
-            // tableLayoutPanel25
+            // pictureBox2
             // 
-            resources.ApplyResources(tableLayoutPanel25, "tableLayoutPanel25");
-            tableLayoutPanel25.Name = "tableLayoutPanel25";
+            resources.ApplyResources(pictureBox2, "pictureBox2");
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.TabStop = false;
             // 
             // 超商結帳系統
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.InactiveCaptionText;
+            BackColor = Color.FromArgb(16, 20, 29);
             Controls.Add(tableLayoutPanel1);
             Name = "超商結帳系統";
             Load += Form1_Load;
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel9.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel4.ResumeLayout(false);
             tableLayoutPanel5.ResumeLayout(false);
             tableLayoutPanel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            tableLayoutPanel7.ResumeLayout(false);
+            tableLayoutPanel7.PerformLayout();
+            tableLayoutPanel27.ResumeLayout(false);
             tableLayoutPanel8.ResumeLayout(false);
             tableLayoutPanel10.ResumeLayout(false);
+            tableLayoutPanel11.ResumeLayout(false);
+            tableLayoutPanel28.ResumeLayout(false);
+            tableLayoutPanel28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             tableLayoutPanel12.ResumeLayout(false);
             tableLayoutPanel14.ResumeLayout(false);
             tableLayoutPanel15.ResumeLayout(false);
@@ -448,9 +720,12 @@
             tableLayoutPanel19.ResumeLayout(false);
             tableLayoutPanel20.ResumeLayout(false);
             tableLayoutPanel21.ResumeLayout(false);
+            tableLayoutPanel25.ResumeLayout(false);
+            tableLayoutPanel25.PerformLayout();
             tableLayoutPanel22.ResumeLayout(false);
             tableLayoutPanel23.ResumeLayout(false);
             tableLayoutPanel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -462,7 +737,6 @@
         private TableLayoutPanel tableLayoutPanel3;
         private TableLayoutPanel tableLayoutPanel5;
         private TableLayoutPanel tableLayoutPanel6;
-        private TableLayoutPanel tableLayoutPanel7;
         private TableLayoutPanel tableLayoutPanel8;
         private TableLayoutPanel tableLayoutPanel10;
         private TableLayoutPanel tableLayoutPanel11;
@@ -505,5 +779,33 @@
         private Button UserPanel;
         private Label label1;
         private TableLayoutPanel tableLayoutPanel25;
+        private Button button1;
+        private PictureBox pictureBox1;
+        private TableLayoutPanel tableLayoutPanel7;
+        private Label label3;
+        private Label label2;
+        private TableLayoutPanel tableLayoutPanel27;
+        private Button button2;
+        private Button button4;
+        private TableLayoutPanel tableLayoutPanel28;
+        private Label label4;
+        private Label label5;
+        private TextBox textBox1;
+        private Label label6;
+        private PictureBox pictureBox2;
+        private Label label8;
+        private Label label7;
+        private Label label10;
+        private Label label9;
+        private Label label16;
+        private Label label15;
+        private Label label14;
+        private Label label13;
+        private Label label12;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn colID;
+        private DataGridViewTextBoxColumn colName;
+        private DataGridViewTextBoxColumn colQuantity01;
+        private DataGridViewTextBoxColumn colAccount;
     }
 }

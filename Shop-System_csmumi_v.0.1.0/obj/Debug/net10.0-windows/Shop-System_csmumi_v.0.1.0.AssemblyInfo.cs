@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shop-System_csmumi_v.0.1.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48abbdaddf44ffaa44810c42d3c17b29b82957e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dc66d608566a571b205087021bfbf9a55d3a52d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shop-System_csmumi_v.0.1.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shop-System_csmumi_v.0.1.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
